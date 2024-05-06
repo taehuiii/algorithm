@@ -1,0 +1,4 @@
+SELECT distinct  left(PRODUCT_CODE,2) as CATEGORY, Count(PRODUCT_ID) as PRODUCTS
+from PRODUCT
+group by CATEGORY
+order by CATEGORY

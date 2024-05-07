@@ -16,9 +16,9 @@ fun solution(arr: IntArray): IntArray {
             }
         }
 
-       //answer.toMutableList().remove(min)
+
         var temp = answer.toMutableList()
         temp.remove(min)
 
-        return temp.toTypedArray().toIntArray()
+        return temp.toIntArray()
     }}
